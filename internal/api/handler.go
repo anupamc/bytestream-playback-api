@@ -54,7 +54,6 @@ func (h *Handler) Playback(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	// Map to the same error payloads you used before
 	switch status {
 	case 401:
 		WriteJSON(w, http.StatusUnauthorized, ErrorResponse{Error: "unauthorized", Details: details})
