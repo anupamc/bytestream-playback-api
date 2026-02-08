@@ -1,0 +1,21 @@
+# Binaries
+bin/
+*.exe
+*.out
+*.test
+
+# Go build cache (usually not committed)
+**/dist/
+**/build/
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+
+# macOS
+.DS_Store
+
+# Env files (keep secrets out of git)
+.env
+.env.*
