@@ -4,11 +4,11 @@ import (
 	"log"
 	"net/http"
 
-	"bytestream/internal/api"
-	"bytestream/internal/catalog"
-	"bytestream/internal/clients"
-	"bytestream/internal/config"
-	"bytestream/internal/domain"
+	"github.com/anupamc/bytestream-playback-api/internal/api"
+	"github.com/anupamc/bytestream-playback-api/internal/catalog"
+	"github.com/anupamc/bytestream-playback-api/internal/clients"
+	"github.com/anupamc/bytestream-playback-api/internal/config"
+	"github.com/anupamc/bytestream-playback-api/internal/domain"
 )
 
 func main() {

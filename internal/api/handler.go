@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"bytestream/internal/domain"
+	"github.com/anupamc/bytestream-playback-api/internal/domain"
 )
 
 type Handler struct {

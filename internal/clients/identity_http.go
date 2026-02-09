@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"net/http"
 	
-	"bytestream/internal/domain"
+	"github.com/anupamc/bytestream-playback-api/internal/domain"
 )
 
 type IdentityHTTP struct {

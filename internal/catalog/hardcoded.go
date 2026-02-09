@@ -1,6 +1,6 @@
 package catalog
 
-import "bytestream/internal/domain"
+import "github.com/anupamc/bytestream-playback-api/internal/domain"
 
 type Hardcoded struct {
 	baseURL string
